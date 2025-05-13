@@ -1,4 +1,6 @@
-## Hi there 👋
+![Gerry](img/zoro.gif)
+
+### Hi Guyss! Gerry Disini 👋
 
 <!--
 **Gerryrag/Gerryrag** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +16,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+Saya adalah seorang mahasiswa Sistem Informasi di Universitas Merdeka (Unmer). Meski belum menjadi ahli, saya cukup handal dalam coding, dan siap diadu.
+
+#### skills
+
+> **"Bukan jagoan coding, tapi tahu cara menyelesaikan masalah."** 🚀
