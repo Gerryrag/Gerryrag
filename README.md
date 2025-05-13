@@ -1,10 +1,7 @@
-<div align="left">
-  Saya adalah seorang mahasiswa Sistem Informasi di Universitas Merdeka (Unmer). Meski belum menjadi ahli, saya cukup handal dalam coding, dan siap diadu.
-</div>
+![Gerry](img/zoro.gif)
 
-<div align="right">
-  <img src="img/zoro.gif" width="100%">
-</div>
+### Hi Guyss! Gerry Disini 👋
+
 <!--
 **Gerryrag/Gerryrag** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -18,7 +15,9 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
-  -->
+-->
+
+Saya adalah seorang mahasiswa Sistem Informasi di Universitas Merdeka (Unmer). Meski belum menjadi ahli, saya cukup handal dalam coding, dan siap diadu.
 
 #### skills
 
