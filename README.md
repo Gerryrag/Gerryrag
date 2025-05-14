@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="img/luffy.gif" alt="Gerry" style="width: 100%; max-height: 250px; object-fit: cover;">
+  <img src="img/luffy.gif" alt="Gerry" style="width: 100%; height: auto;">
   <br>
   <br>
 
@@ -8,6 +8,8 @@
 </div>
 
 ### Hawoo! Gerry Disini 👋
+
+Selamat datang di Github personal saya
 
 <!--
 **Gerryrag/Gerryrag** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -30,7 +32,7 @@ Here are some ideas to get you started:
 - **Alamat:** Probolinggo, Indonesia
 - **Status:** Mahasiswa
 
-### Skills
+### 🚀 Skills
 
 <div style="display: flex; flex-wrap: nowrap; gap: 10px; ">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
@@ -40,10 +42,12 @@ Here are some ideas to get you started:
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
 </div>
 
-### Contact
+### 📞 Contact
 
 ![https://www.instagram.com/gerryrag/](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)
 
-<img src="img/line.gif" alt="Gerry" style="width: 100%; max-height: 3px; object-fit: cover;">
-"Bukan jagoan coding, tapi tahu cara menyelesaikan masalah." 🚀
-<img src="img/line.gif" alt="Gerry" style="width: 100%; max-height: 3px; object-fit: cover;">
+---
+
+"Bukan jagoan coding, tapi tahu cara menyelesaikan masalah"
+
+---
