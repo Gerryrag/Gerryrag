@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="img/luffy.gif" alt="Gerry" style="width: 100%; height: auto;">
+  <img src="img/luffy.gif" alt="Gerry" style="width: 300%; height: auto;">
   <br>
   <br>
 
