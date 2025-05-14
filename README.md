@@ -24,7 +24,11 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-Aku Mahasiswa Sistem Informasi di Universitas Merdeka (Unmer) 🚀
+- **Nama Lengkap:** Gerry Robbie AG
+- **Tanggal Lahir:** 26 Desember 2004
+- **Hobi:** Makan
+- **Alamat:** Probolinggo, Indonesia
+- **Status:** Mahasiswa
 
 ### Skills
 
@@ -40,10 +44,6 @@ Aku Mahasiswa Sistem Informasi di Universitas Merdeka (Unmer) 🚀
 
 ![https://www.instagram.com/gerryrag/](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)
 
-<div align="center">
-<hr style="height: 4px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); border: none;">
-  <block>
-    <p>"Bukan jagoan coding, tapi tahu cara menyelesaikan masalah." 🚀</p>
-  
-  <hr style="height: 4px; background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); border: none;">
-</div>
+<img src="img/line.gif" alt="Gerry" style="width: 100%; max-height: 3px; object-fit: cover;">
+"Bukan jagoan coding, tapi tahu cara menyelesaikan masalah." 🚀
+<img src="img/line.gif" alt="Gerry" style="width: 100%; max-height: 3px; object-fit: cover;">
