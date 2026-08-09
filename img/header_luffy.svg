@@ -1,0 +1,55 @@
+<svg width="800" height="320" viewBox="0 0 800 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font-family: 'Impact', 'Arial Black', sans-serif; font-size: 36px; fill: #000000; font-weight: 900; letter-spacing: 1px; }
+    .subtitle { font-family: 'Courier New', Courier, monospace; font-size: 16px; fill: #000000; font-weight: bold; }
+    .badge-text { font-family: 'Courier New', Courier, monospace; font-size: 13px; fill: #ffffff; font-weight: bold; }
+    .polaroid-text { font-family: 'Courier New', Courier, monospace; font-size: 15px; font-weight: 900; fill: #000000; letter-spacing: 1px; }
+    .grid-dot { fill: #000000; opacity: 0.12; }
+  </style>
+  
+  <!-- Main Background Panel -->
+  <rect x="12" y="12" width="776" height="296" rx="12" fill="#000000" />
+  <rect x="4" y="4" width="776" height="296" rx="12" fill="#FFDE4D" stroke="#000000" stroke-width="4" />
+  
+  <!-- Dot Grid Pattern -->
+  <g class="grid-dot">
+    <circle cx="580" cy="50" r="3.5" /><circle cx="610" cy="50" r="3.5" /><circle cx="640" cy="50" r="3.5" /><circle cx="670" cy="50" r="3.5" /><circle cx="700" cy="50" r="3.5" /><circle cx="730" cy="50" r="3.5" />
+    <circle cx="580" cy="80" r="3.5" /><circle cx="610" cy="80" r="3.5" /><circle cx="640" cy="80" r="3.5" /><circle cx="670" cy="80" r="3.5" /><circle cx="700" cy="80" r="3.5" /><circle cx="730" cy="80" r="3.5" />
+    <circle cx="580" cy="110" r="3.5" /><circle cx="610" cy="110" r="3.5" /><circle cx="640" cy="110" r="3.5" /><circle cx="670" cy="110" r="3.5" /><circle cx="700" cy="110" r="3.5" /><circle cx="730" cy="110" r="3.5" />
+    <circle cx="580" cy="140" r="3.5" /><circle cx="610" cy="140" r="3.5" /><circle cx="640" cy="140" r="3.5" /><circle cx="670" cy="140" r="3.5" /><circle cx="700" cy="140" r="3.5" /><circle cx="730" cy="140" r="3.5" />
+    <circle cx="580" cy="170" r="3.5" /><circle cx="610" cy="170" r="3.5" /><circle cx="640" cy="170" r="3.5" /><circle cx="670" cy="170" r="3.5" /><circle cx="700" cy="170" r="3.5" /><circle cx="730" cy="170" r="3.5" />
+    <circle cx="580" cy="200" r="3.5" /><circle cx="610" cy="200" r="3.5" /><circle cx="640" cy="200" r="3.5" /><circle cx="670" cy="200" r="3.5" /><circle cx="700" cy="200" r="3.5" /><circle cx="730" cy="200" r="3.5" />
+    <circle cx="580" cy="230" r="3.5" /><circle cx="610" cy="230" r="3.5" /><circle cx="640" cy="230" r="3.5" /><circle cx="670" cy="230" r="3.5" /><circle cx="700" cy="230" r="3.5" /><circle cx="730" cy="230" r="3.5" />
+    <circle cx="580" cy="260" r="3.5" /><circle cx="610" cy="260" r="3.5" /><circle cx="640" cy="260" r="3.5" /><circle cx="670" cy="260" r="3.5" /><circle cx="700" cy="260" r="3.5" /><circle cx="730" cy="260" r="3.5" />
+  </g>
+  
+  <!-- Polaroid Frame for Luffy GIF -->
+  <g transform="translate(30, 20)">
+    <!-- Shadow -->
+    <rect x="8" y="8" width="220" height="260" rx="4" fill="#000000" />
+    <!-- White Polaroid Base -->
+    <rect x="0" y="0" width="220" height="260" rx="4" fill="#FFFFFF" stroke="#000000" stroke-width="4" />
+    <!-- Image Box -->
+    <rect x="15" y="15" width="190" height="190" fill="#EAEAEA" stroke="#000000" stroke-width="2.5" />
+    <image href="https://raw.githubusercontent.com/Gerryrag/Gerryrag/main/img/luffy.gif" x="15" y="15" width="190" height="190" preserveAspectRatio="xMidYMid slice" />
+    <!-- Caption -->
+    <text x="110" y="235" text-anchor="middle" class="polaroid-text">LUFFY 🍖</text>
+  </g>
+  
+  <!-- Welcome and Intro Content (Right side) -->
+  <g transform="translate(290, 40)">
+    <!-- Header Sticker Status -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="110" height="28" rx="6" fill="#FF4E88" stroke="#000000" stroke-width="2.5" />
+      <text x="55" y="18" text-anchor="middle" class="badge-text">STATUS: ACTIVE</text>
+    </g>
+    
+    <!-- Big Title -->
+    <text x="0" y="70" class="title">HAWOO, GERRY DISINI 👋</text>
+    
+    <!-- Subtitles -->
+    <text x="0" y="115" class="subtitle">Information Systems Student @ Unmer</text>
+    <text x="0" y="145" class="subtitle">Web Developer &amp; Video Editor</text>
+    <text x="0" y="175" class="subtitle">Probolinggo City, Indonesia</text>
+  </g>
+</svg>

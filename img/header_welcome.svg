@@ -1,0 +1,28 @@
+<svg width="800" height="180" viewBox="0 0 800 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font-family: 'Impact', 'Arial Black', sans-serif; font-size: 38px; fill: #000000; font-weight: 900; letter-spacing: 1px; }
+    .subtitle { font-family: 'Courier New', Courier, monospace; font-size: 18px; fill: #000000; font-weight: bold; }
+    .badge-text { font-family: 'Courier New', Courier, monospace; font-size: 13px; fill: #ffffff; font-weight: bold; }
+    .grid-dot { fill: #000000; opacity: 0.15; }
+  </style>
+  <rect x="12" y="12" width="776" height="156" rx="10" fill="#000000" />
+  <rect x="4" y="4" width="776" height="156" rx="10" fill="#FFDE4D" stroke="#000000" stroke-width="4" />
+  
+  <g class="grid-dot">
+    <circle cx="680" cy="40" r="3" /><circle cx="700" cy="40" r="3" /><circle cx="720" cy="40" r="3" /><circle cx="740" cy="40" r="3" />
+    <circle cx="680" cy="60" r="3" /><circle cx="700" cy="60" r="3" /><circle cx="720" cy="60" r="3" /><circle cx="740" cy="60" r="3" />
+    <circle cx="680" cy="80" r="3" /><circle cx="700" cy="80" r="3" /><circle cx="720" cy="80" r="3" /><circle cx="740" cy="80" r="3" />
+    <circle cx="680" cy="100" r="3" /><circle cx="700" cy="100" r="3" /><circle cx="720" cy="100" r="3" /><circle cx="740" cy="100" r="3" />
+    <circle cx="680" cy="120" r="3" /><circle cx="700" cy="120" r="3" /><circle cx="720" cy="120" r="3" /><circle cx="740" cy="120" r="3" />
+    <circle cx="680" cy="140" r="3" /><circle cx="700" cy="140" r="3" /><circle cx="720" cy="140" r="3" /><circle cx="740" cy="140" r="3" />
+  </g>
+  
+  <text x="40" y="70" class="title">HAWOO, GERRY DISINI 👋</text>
+  <text x="40" y="110" class="subtitle">🎓 Information Systems Student @ Unmer</text>
+  <text x="40" y="135" class="subtitle">💻 Web Developer &amp; Video Editor</text>
+  
+  <g transform="translate(560, 40)">
+    <rect x="0" y="0" width="90" height="30" rx="5" fill="#FF4E88" stroke="#000000" stroke-width="2" />
+    <text x="45" y="19" text-anchor="middle" class="badge-text">STATUS: ACTIVE</text>
+  </g>
+</svg>
