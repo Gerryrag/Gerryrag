@@ -1,6 +1,6 @@
 <svg width="760" height="120" viewBox="0 0 760 120" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .label { font-family: 'Courier New', Courier, monospace; font-size: 13px; font-weight: bold; fill: #000000; }
+    .label { font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; fill: #000000; }
   </style>
   
   <!-- Row 1: HTML5, CSS3, Bootstrap -->

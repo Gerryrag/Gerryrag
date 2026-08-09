@@ -14,79 +14,51 @@ def main():
     img_dir = "img"
     create_directory(img_dir)
 
-    # 1. Header Luffy Banner (Polaroid + Welcome text)
-    header_luffy = """
-<svg width="800" height="320" viewBox="0 0 800 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+    # 1. Header Welcome Banner (Text & Sticker only, no embedded image to prevent animation freeze)
+    header_welcome = """
+<svg width="800" height="110" viewBox="0 0 800 110" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .title { font-family: 'Impact', 'Arial Black', sans-serif; font-size: 36px; fill: #000000; font-weight: 900; letter-spacing: 1px; }
-    .subtitle { font-family: 'Courier New', Courier, monospace; font-size: 16px; fill: #000000; font-weight: bold; }
-    .badge-text { font-family: 'Courier New', Courier, monospace; font-size: 13px; fill: #ffffff; font-weight: bold; }
-    .polaroid-text { font-family: 'Courier New', Courier, monospace; font-size: 15px; font-weight: 900; fill: #000000; letter-spacing: 1px; }
-    .grid-dot { fill: #000000; opacity: 0.12; }
+    .title { font-family: 'Arial Black', Impact, sans-serif; font-size: 32px; fill: #000000; font-weight: 900; letter-spacing: 0.5px; }
+    .grid-dot { fill: #000000; opacity: 0.15; }
+    .sticker-text { font-family: Arial, sans-serif; font-size: 11px; font-weight: bold; fill: #ffffff; }
   </style>
+  <!-- Shadow -->
+  <rect x="10" y="10" width="780" height="90" rx="8" fill="#000000" />
+  <!-- Main Rect -->
+  <rect x="4" y="4" width="780" height="90" rx="8" fill="#FFDE4D" stroke="#000000" stroke-width="4" />
   
-  <!-- Main Background Panel -->
-  <rect x="12" y="12" width="776" height="296" rx="12" fill="#000000" />
-  <rect x="4" y="4" width="776" height="296" rx="12" fill="#FFDE4D" stroke="#000000" stroke-width="4" />
-  
-  <!-- Dot Grid Pattern -->
+  <!-- Dot Grid -->
   <g class="grid-dot">
-    <circle cx="580" cy="50" r="3.5" /><circle cx="610" cy="50" r="3.5" /><circle cx="640" cy="50" r="3.5" /><circle cx="670" cy="50" r="3.5" /><circle cx="700" cy="50" r="3.5" /><circle cx="730" cy="50" r="3.5" />
-    <circle cx="580" cy="80" r="3.5" /><circle cx="610" cy="80" r="3.5" /><circle cx="640" cy="80" r="3.5" /><circle cx="670" cy="80" r="3.5" /><circle cx="700" cy="80" r="3.5" /><circle cx="730" cy="80" r="3.5" />
-    <circle cx="580" cy="110" r="3.5" /><circle cx="610" cy="110" r="3.5" /><circle cx="640" cy="110" r="3.5" /><circle cx="670" cy="110" r="3.5" /><circle cx="700" cy="110" r="3.5" /><circle cx="730" cy="110" r="3.5" />
-    <circle cx="580" cy="140" r="3.5" /><circle cx="610" cy="140" r="3.5" /><circle cx="640" cy="140" r="3.5" /><circle cx="670" cy="140" r="3.5" /><circle cx="700" cy="140" r="3.5" /><circle cx="730" cy="140" r="3.5" />
-    <circle cx="580" cy="170" r="3.5" /><circle cx="610" cy="170" r="3.5" /><circle cx="640" cy="170" r="3.5" /><circle cx="670" cy="170" r="3.5" /><circle cx="700" cy="170" r="3.5" /><circle cx="730" cy="170" r="3.5" />
-    <circle cx="580" cy="200" r="3.5" /><circle cx="610" cy="200" r="3.5" /><circle cx="640" cy="200" r="3.5" /><circle cx="670" cy="200" r="3.5" /><circle cx="700" cy="200" r="3.5" /><circle cx="730" cy="200" r="3.5" />
-    <circle cx="580" cy="230" r="3.5" /><circle cx="610" cy="230" r="3.5" /><circle cx="640" cy="230" r="3.5" /><circle cx="670" cy="230" r="3.5" /><circle cx="700" cy="230" r="3.5" /><circle cx="730" cy="230" r="3.5" />
-    <circle cx="580" cy="260" r="3.5" /><circle cx="610" cy="260" r="3.5" /><circle cx="640" cy="260" r="3.5" /><circle cx="670" cy="260" r="3.5" /><circle cx="700" cy="260" r="3.5" /><circle cx="730" cy="260" r="3.5" />
+    <circle cx="40" cy="43" r="3.5" /><circle cx="60" cy="43" r="3.5" /><circle cx="80" cy="43" r="3.5" />
+    <circle cx="40" cy="58" r="3.5" /><circle cx="60" cy="58" r="3.5" /><circle cx="80" cy="58" r="3.5" />
+    <circle cx="40" cy="73" r="3.5" /><circle cx="60" cy="73" r="3.5" /><circle cx="80" cy="73" r="3.5" />
   </g>
   
-  <!-- Polaroid Frame for Luffy GIF -->
-  <g transform="translate(30, 20)">
-    <!-- Shadow -->
-    <rect x="8" y="8" width="220" height="260" rx="4" fill="#000000" />
-    <!-- White Polaroid Base -->
-    <rect x="0" y="0" width="220" height="260" rx="4" fill="#FFFFFF" stroke="#000000" stroke-width="4" />
-    <!-- Image Box -->
-    <rect x="15" y="15" width="190" height="190" fill="#EAEAEA" stroke="#000000" stroke-width="2.5" />
-    <image href="https://raw.githubusercontent.com/Gerryrag/Gerryrag/main/img/luffy.gif" x="15" y="15" width="190" height="190" preserveAspectRatio="xMidYMid slice" />
-    <!-- Caption -->
-    <text x="110" y="235" text-anchor="middle" class="polaroid-text">LUFFY 🍖</text>
-  </g>
+  <!-- Title Text -->
+  <text x="110" y="60" class="title">HAWOO, GERRY DISINI 👋</text>
   
-  <!-- Welcome and Intro Content (Right side) -->
-  <g transform="translate(290, 40)">
-    <!-- Header Sticker Status -->
-    <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="110" height="28" rx="6" fill="#FF4E88" stroke="#000000" stroke-width="2.5" />
-      <text x="55" y="18" text-anchor="middle" class="badge-text">STATUS: ACTIVE</text>
-    </g>
-    
-    <!-- Big Title -->
-    <text x="0" y="70" class="title">HAWOO, GERRY DISINI 👋</text>
-    
-    <!-- Subtitles -->
-    <text x="0" y="115" class="subtitle">Information Systems Student @ Unmer</text>
-    <text x="0" y="145" class="subtitle">Web Developer &amp; Video Editor</text>
-    <text x="0" y="175" class="subtitle">Probolinggo City, Indonesia</text>
+  <!-- Sticker -->
+  <g transform="translate(650, 35)">
+    <rect x="0" y="0" width="110" height="28" rx="6" fill="#FF4E88" stroke="#000000" stroke-width="2.5" />
+    <text x="55" y="18" text-anchor="middle" class="sticker-text">STATUS: ACTIVE</text>
   </g>
 </svg>
 """
-    save_svg(os.path.join(img_dir, "header_luffy.svg"), header_luffy)
+    save_svg(os.path.join(img_dir, "header_welcome.svg"), header_welcome)
 
     # 2. Section Title Banners
     titles = {
-        "title_about.svg": ("👩‍💻 ABOUT ME", "#42F5B2"),
-        "title_tools.svg": ("🛠 LANGUAGES & TOOLS", "#00E5FF"),
-        "title_stats.svg": ("🔥 MY STATS", "#FF4E88"),
-        "title_chill.svg": ("🎮 PLAY & CHILL", "#FF8E2B")
+        "title_about.svg": ("ABOUT ME", "#42F5B2"),
+        "title_tools.svg": ("LANGUAGES &amp; TOOLS", "#00E5FF"),
+        "title_stats.svg": ("MY STATS", "#FF4E88"),
+        "title_chill.svg": ("PLAY &amp; CHILL", "#FF8E2B")
     }
 
     for filename, (text, color) in titles.items():
         title_svg = f"""
 <svg width="320" height="60" viewBox="0 0 320 60" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .title-text {{ font-family: 'Courier New', Courier, monospace; font-size: 18px; font-weight: 900; fill: #000000; }}
+    .title-text {{ font-family: Arial, sans-serif; font-size: 18px; font-weight: 900; fill: #000000; letter-spacing: 0.5px; }}
   </style>
   <rect x="8" y="8" width="304" height="44" rx="6" fill="#000000" />
   <rect x="3" y="3" width="304" height="44" rx="6" fill="{color}" stroke="#000000" stroke-width="3" />
@@ -106,7 +78,7 @@ def main():
         social_svg = f"""
 <svg width="150" height="42" viewBox="0 0 150 42" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .label {{ font-family: 'Courier New', Courier, monospace; font-size: 14px; font-weight: bold; fill: #000000; }}
+    .label {{ font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #000000; }}
   </style>
   <rect x="5" y="5" width="138" height="30" rx="6" fill="#000000" />
   <rect x="2" y="2" width="138" height="30" rx="6" fill="{color}" stroke="#000000" stroke-width="2.5" />
@@ -124,7 +96,7 @@ def main():
     tech_stack = """
 <svg width="760" height="120" viewBox="0 0 760 120" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .label { font-family: 'Courier New', Courier, monospace; font-size: 13px; font-weight: bold; fill: #000000; }
+    .label { font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; fill: #000000; }
   </style>
   
   <!-- Row 1: HTML5, CSS3, Bootstrap -->

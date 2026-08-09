@@ -1,5 +1,11 @@
 <div align="center">
-  <img src="img/header_luffy.svg" alt="Gerry's Profile Banner" width="100%" max-width="800" />
+  <img src="img/luffy.gif" width="220" alt="Luffy Animation" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="img/header_welcome.svg" alt="Welcome Header" width="100%" max-width="800" />
 </div>
 
 <br />
